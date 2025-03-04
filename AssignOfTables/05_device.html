@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Updated Device Table</title>
+  <style>
+    table {
+      border: 3px solid #333;
+      width: 90%;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+      border-collapse: collapse;
+      background-color: #f9f9f9;
+    }
+    th, td {
+      border: 2px solid #555;
+      padding: 14px; 
+      text-align: center;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+      font-weight: bold;
+    }
+    .spec-header {
+      background-color: #FF5733;
+      color: white;
+      font-weight: bold;
+    }
+    .rowspan {
+      vertical-align: middle;
+      background-color: #D5DBDB;
+      font-weight: bold;
+    }
+    tr:nth-child(even) {
+      background-color: #E8F6F3;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>Device</th>
+      <th>Brand</th>
+      <th colspan="2">Specifications</th>
+    </tr>
+    <tr>
+      <td class="rowspan" rowspan="2">Smartphone</td>
+      <td class="rowspan" rowspan="2">Samsung</td>
+      <th class="spec-header">Model</th>
+      <th class="spec-header">Storage</th>
+    </tr>
+    <tr>
+      <td>Galaxy S21 Ultra</td>
+      <td>512GB</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Galaxy A52</td>
+      <td>256GB</td>
+    </tr>
+    <tr>
+      <td class="rowspan" rowspan="2">Laptop</td>
+      <td class="rowspan" rowspan="2">Dell</td>
+      <td class="spec-header">Model</td>
+      <td class="spec-header">Screen Size</td>
+    </tr>
+    <tr>
+      <td>XPS 15</td>
+      <td>15.6" Display</td>
+    </tr>
+    <tr>
+      <td>Tablet</td>
+      <td>Apple</td>
+      <td colspan="2">iPad Pro 12.9" Display</td>
+    </tr>
+    <tr>
+      <td>Smartwatch</td>
+      <td>Garmin</td>
+      <td colspan="2">Fenix 6X Pro, GPS, 1.4" Display</td>
+    </tr>
+    <tr>
+      <td>Gaming Console</td>
+      <td>Sony</td>
+      <td colspan="2">PlayStation 5, 825GB SSD</td>
+    </tr>
+  </table>
+</body>
+</html>
